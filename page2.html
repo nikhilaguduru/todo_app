@@ -1,0 +1,69 @@
+<head>
+    <title>
+        page2
+    </title>
+    <script src="https://kit.fontawesome.com/c554a2adde.js" crossorigin="anonymous"></script>
+    <style>
+        p.one
+        { 
+            display: flex; 
+            flex-direction: row; 
+            font-size: 40px;
+            font-family:initial;
+        } 
+        p.one:before
+        {
+            content: ""; 
+            flex: 1 1; 
+            border-bottom: 2px solid grey; 
+            margin: auto;
+            margin-right: 10px;
+            margin-left: 300px;
+        }
+        p.one:after
+        {
+            content: ""; 
+            flex: 1 1; 
+            border-bottom: 2px solid grey; 
+            margin: auto;
+            margin-right: 300px;
+            margin-left: 10px;
+        }
+        div.box
+        {
+            border: 2px solid rgb(236, 48, 48);
+            display: inline-block;
+            box-shadow: 5px 5px 2px rgb(155, 155, 155);
+            height: 200px;
+            width: 150px;
+            border-radius: 10px;
+            padding: 0px 10px 0px 10px;
+            margin-left: 550px;
+        }
+        /* footer
+        {
+            position: absolute;
+            bottom: 0;
+            height: 50px;
+            width: 99%;
+            background-color: rgb(184, 179, 179);
+        } */
+    </style>
+</head>
+<body>
+    <br><br>
+    <p class="one">Trip to Paris</p>
+    <p style="font-size: 40px;text-align: center;font-style: normal;color: grey;"><i class="fas fa-arrow-circle-left" style="color: red;"></i>Back</p>
+    <div class="box" >
+        <p class="head_box" id="a">Trip to Paris</p><br>
+        <p class="com_task"><s>completed task</s></p>
+        <input type="checkbox">Pending task<br><br><br><br>
+        <i class="fas fa-plus-circle" style="color: red; size: 30px; padding-left: 90%;"></i>
+    </div>
+    <!-- <footer>
+        <a href="page1.html" target="_self" ><i class="fas fa-home" style="color: grey; padding-left: 550px;"></i></a>
+        <a href="page1.html" target="_self" style="display:inline-flex;  color: grey; padding-left: 10px"><i class="fas fa-angle-left"></i></a>
+        <p style="display: inline-flex;padding-left: 10px">2 of 4</p>
+        <a href="page3.html" target="_self" style="display: inline-flex; color: grey;padding-left: 10px"><i class="fas fa-angle-right"></i></a>
+    </footer> -->
+</body>
